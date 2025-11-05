@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:dividerPadding="8dp"
+        android:showDividers="middle">
+
+
+
+        <Button
+            android:id="@+id/btnSimple"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Простое уведомление (иконка/текст)" />
+
+        <Button
+            android:id="@+id/btnOpenApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Уведомление -> открыть приложение" />
+
+        <Button
+            android:id="@+id/btnServiceCmd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3. Уведомление -> команда сервису" />
+
+        <Button
+            android:id="@+id/btnLockscreen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. LockScreen уведомление + вибро" />
+
+        <Button
+            android:id="@+id/btnAction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Actions: кнопка + reply" />
+
+        <Button
+            android:id="@+id/btnClearAll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Очистить все уведомления" />
+
+
+    </LinearLayout>
+</ScrollView>
